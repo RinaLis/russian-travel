@@ -1,8 +1,6 @@
 @import url(../vendors/normalize.css);
 @import url(../vendors/fonts.css);
 @import url(../blocks/page/page.css);
-@import url(../blocks/section/__lists/section__lists.css);
-@import url(../blocks/section/__link/section__link.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/heder__logo.css);
@@ -13,6 +11,7 @@
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__figure/lead__figure.css);
 @import url(../blocks/lead/__main-image/lead__main-image.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 
@@ -26,7 +25,6 @@
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__images/photo-grid__images.css);
 @import url(../blocks/photo-grid/__image-item/photo-grid__image-item.css);
-@import url(../blocks/photo-grid/__list/photo-grid__list.css);
 
 @import url(../blocks/places/places.css);
 @import url(../blocks/places/__lists/places__lists.css);

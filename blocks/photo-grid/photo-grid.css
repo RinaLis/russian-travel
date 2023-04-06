@@ -6,20 +6,22 @@
     ". photo-grid__images ."
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1280px) {
     .photo-grid {
-        grid-template-columns: 48px 1fr 48px;
+        grid-template-columns: 1fr 1184px 1fr;
     }
 }
 
 @media screen and (max-width: 768px) {
     .photo-grid {
         grid-template-columns: 24px 1fr 24px;
+        margin: 88px 0 0;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
     .photo-grid {
         grid-template-columns: 16px 1fr 16px;
+        margin: 64px 0 0;
     }
 }

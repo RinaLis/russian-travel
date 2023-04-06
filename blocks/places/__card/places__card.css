@@ -1,6 +1,6 @@
 .places__card {
     display: grid;
-    grid-template-columns: minmax(24px, 1fr) minmax(340px, 440px) minmax(352px, 456px) minmax(24px, 1fr);
+    grid-template-columns: minmax(24px, 48px) minmax(340px, 440px) minmax(380px, 488px) minmax(24px, 48px);
     grid-template-rows:auto;
     grid-template-areas:
     ". places__card-title places__links ."
@@ -10,7 +10,7 @@
 
 @media screen and (min-width: 1024px) {
     .places__card {
-        grid-template-columns: minmax(48px, 1fr) fit-content(460px) minmax(456px, 484px) minmax(48px, 1fr);
+        grid-template-columns: minmax(48px, 1fr) minmax(440px, 460px) minmax(488px, 524px) minmax(48px, 1fr);
     }
 }
 
@@ -27,7 +27,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
     .places__card {
         grid-template-columns: 16px 1fr 16px;
         

@@ -22,12 +22,14 @@
         grid-template-areas:
         ". intro__title ."
         ". intro__text ."
-        ". intro__lists ."
+        ". intro__lists .";
+        margin: 88px 0 0;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
     .intro {
         grid-template-columns: 16px 1fr 16px;
+        margin: 64px 0 0;
     }
 }

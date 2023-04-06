@@ -1,5 +1,4 @@
 .lead__main-image {
     width: 100%;
     object-fit: contain;
-    grid-area: lead__main-image;
 }

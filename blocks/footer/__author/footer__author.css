@@ -14,5 +14,6 @@
     .footer__author {
         margin: 48px 0 0;
         justify-self: start;
+        line-height: 100%;
     }
 }

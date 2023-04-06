@@ -1,8 +1,11 @@
 .photo-grid__images {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     display: grid;
     column-gap: 14px;
     row-gap: 14px;
-    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-template-rows: auto;
     grid-area: photo-grid__images;
 }
@@ -19,7 +22,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
     .photo-grid__images {
         gap: 12px;
     }

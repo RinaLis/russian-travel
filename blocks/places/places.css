@@ -5,5 +5,12 @@
 @media screen and (max-width: 768px) {
     .places {
         margin: calc(64px + (100vw - 320px)/112*6) 0px 0px;
+        margin: 88px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places {
+        margin: 64px 0px 0px;
     }
 }

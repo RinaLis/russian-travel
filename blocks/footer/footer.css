@@ -6,10 +6,16 @@
     ". footer__menu footer__author ."
 }
 
+@media screen and (min-width: 1280px) {
+    .footer {
+        grid-template-columns: minmax(48px, 1fr) 888px 296px minmax(48px, 1fr);
+    }
+}
+
 @media screen and (max-width: 768px) {
     .footer {
         grid-template-columns: 24px 3fr 1fr 24px;
-        margin: 90px 0 24px;
+        margin: 88px 0 24px;
     }
 }
 
@@ -19,6 +25,6 @@
         grid-template-areas:
         ". footer__menu ."
         ". footer__author .";
-        margin: 66px 0 24px;
+        margin: 64px 0 24px;
     }
 }

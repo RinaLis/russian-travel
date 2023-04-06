@@ -7,5 +7,16 @@
     color: #FFFFFF;
     margin: 0 0 8px;
     padding: 0;
-    grid-area: lead__caption;
+}
+
+@media screen and (max-width: 768px) {
+    .lead__caption {
+        margin: 0 0 8px 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__caption {
+        margin: 0 0 8px 16px;
+    }
 }

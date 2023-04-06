@@ -5,8 +5,7 @@
     grid-template-areas:
     ". lead__title ."
     ". lead__subtitle ."
-    ". lead__main-image ."
-    ". lead__caption ."
+    ". lead__figure ."
 }
 
 
@@ -22,12 +21,11 @@
         grid-template-areas:
         ". lead__title ."
         ". lead__subtitle ."
-        "lead__main-image lead__main-image lead__main-image"
-        ". lead__caption ."
+        "lead__figure lead__figure lead__figure"
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
     .lead {
         grid-template-columns: 16px 1fr 16px;
     }

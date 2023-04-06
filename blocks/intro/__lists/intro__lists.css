@@ -1,4 +1,6 @@
 .intro__lists {
+    list-style-type: none;
+    padding: 0;
     margin: 32px 0px 0px;
     grid-area: intro__lists;
 }
