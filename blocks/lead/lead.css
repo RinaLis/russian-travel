@@ -1,0 +1,34 @@
+.lead {
+    margin: 48px 0 0;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-template-areas:
+    ". lead__title ."
+    ". lead__subtitle ."
+    ". lead__main-image ."
+    ". lead__caption ."
+}
+
+
+@media screen and (min-width: 1024px) {
+    .lead {
+        grid-template-columns: minmax(48px, 1fr) minmax(928px, 984px) minmax(48px, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead {
+        grid-template-columns: 24px 1fr 24px;
+        grid-template-areas:
+        ". lead__title ."
+        ". lead__subtitle ."
+        "lead__main-image lead__main-image lead__main-image"
+        ". lead__caption ."
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead {
+        grid-template-columns: 16px 1fr 16px;
+    }
+}

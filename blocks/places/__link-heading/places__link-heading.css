@@ -1,0 +1,11 @@
+.places__link-heading {
+    font-size: 12px;
+    line-height: 170%;
+    font-weight: 400;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    grid-column: 2;
+    grid-row: 1;
+    margin: 0;
+    padding: 0;
+}

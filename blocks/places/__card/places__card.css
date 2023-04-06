@@ -1,0 +1,35 @@
+.places__card {
+    display: grid;
+    grid-template-columns: minmax(24px, 1fr) minmax(340px, 440px) minmax(352px, 456px) minmax(24px, 1fr);
+    grid-template-rows:auto;
+    grid-template-areas:
+    ". places__card-title places__links ."
+    ". places__card-image places__card-text .";
+    align-items: end;
+}
+
+@media screen and (min-width: 1024px) {
+    .places__card {
+        grid-template-columns: minmax(48px, 1fr) fit-content(460px) minmax(456px, 484px) minmax(48px, 1fr);
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .places__card {
+        grid-template-columns: 24px 1fr 24px;
+        grid-template-rows: auto;
+        grid-template-areas:
+        ". places__card-title ."
+        ". places__links ."
+        "places__card-image places__card-image places__card-image"
+        ". places__card-text .";
+        row-gap: 32px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places__card {
+        grid-template-columns: 16px 1fr 16px;
+        
+    }
+}

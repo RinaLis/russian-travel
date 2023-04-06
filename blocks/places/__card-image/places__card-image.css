@@ -1,0 +1,6 @@
+.places__card-image {
+    width: 100%;
+    object-fit: contain;
+    grid-area: places__card-image;
+    align-self: start;
+}

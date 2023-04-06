@@ -1,0 +1,28 @@
+.places__card-title {
+    font-size: calc(42px + (100vw - 768px)/25.6*3);;
+    line-height: 106%;
+    font-weight: 900;
+    color: #FFFFFF;
+    margin: 0 0 48px 0;
+    padding: 0;
+    grid-area: places__card-title;
+    max-width: 440px;
+}
+
+@media screen and (min-width: 1024px) {
+    .places__card-title {
+        font-size: 72px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .places__card-title {
+        font-size: calc(32px + (100vw - 320px)/44.8);
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .places__card-title {
+        margin: 0;
+    }
+}

@@ -1,0 +1,11 @@
+.places__lists {
+    display: flex;
+    gap: 80px;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 320px) {
+    .places__lists {
+        gap: 73px;
+    }
+}

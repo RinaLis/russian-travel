@@ -1,0 +1,21 @@
+.places__card-text { 
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+    gap: calc(25px + (100vw - 768px)/128);
+    grid-area: places__card-text;
+    margin: 0 0 0 calc(28px + (100vw - 768px)/64);
+}
+
+
+@media screen and (min-width: 1280px) {
+    .places__card-text {
+        margin: 0 0 0 40px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .places__card-text {
+        margin: 0;
+    }
+}

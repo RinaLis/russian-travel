@@ -1,0 +1,19 @@
+.header {
+    margin: 28px 0px 0px;
+    display: grid;
+    grid-template-columns: 48px 1fr 1fr 48px;
+    grid-template-areas:
+    ". header__logo header__language ."
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        grid-template-columns: 24px 1fr 1fr 24px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        grid-template-columns: 16px 1fr 1fr 16px;
+    }
+}

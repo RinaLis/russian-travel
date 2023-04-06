@@ -1,0 +1,14 @@
+.places__card-description {
+    font-size: 18px;
+    line-height: 163%;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0; 
+}
+
+@media screen and (max-width: 768px) {
+    .places__card-description {
+        font-size: 16px
+    }
+}

@@ -1,0 +1,11 @@
+.cover {
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    margin: 92px 0 0;
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        grid-template-columns: 16px 1fr 16px;
+    }
+}

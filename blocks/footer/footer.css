@@ -1,0 +1,24 @@
+.footer {
+    display: grid;
+    grid-template-columns: 48px 3fr 1fr 48px;
+    margin: 92px 0 24px;
+    grid-template-areas:
+    ". footer__menu footer__author ."
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        grid-template-columns: 24px 3fr 1fr 24px;
+        margin: 90px 0 24px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .footer {
+        grid-template-columns: 16px 1fr 16px;
+        grid-template-areas:
+        ". footer__menu ."
+        ". footer__author .";
+        margin: 66px 0 24px;
+    }
+}

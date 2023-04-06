@@ -1,0 +1,33 @@
+.intro {
+    margin: 92px 0 0;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-template-rows: repeat(3, fit-content(1000px));
+    grid-template-areas:
+    ". intro__title ."
+    ". intro__text ."
+    ". intro__lists ."
+}
+
+
+@media screen and (min-width: 1024px) {
+    .intro {
+        grid-template-columns: minmax(48px, 1fr) minmax(928px, 984px) minmax(48px, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro {
+        grid-template-columns: 24px 1fr 24px;
+        grid-template-areas:
+        ". intro__title ."
+        ". intro__text ."
+        ". intro__lists ."
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro {
+        grid-template-columns: 16px 1fr 16px;
+    }
+}

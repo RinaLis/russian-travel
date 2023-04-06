@@ -1,0 +1,7 @@
+.header__language {
+    display: flex;
+    gap: 18px;
+    grid-area: header__language;
+    justify-self: end;
+    align-self: center;
+}
