@@ -8,3 +8,9 @@
     padding: 0;
     grid-area: intro__text;
 }
+
+@media screen and (max-width: 816px) {
+    .intro__text {
+        max-width: 720px;
+    }
+}
